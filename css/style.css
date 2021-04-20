@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
+/* body + header + container structure */
 header{
     background-color: white;
     height: 100px;
@@ -13,6 +13,9 @@ body{
     margin: auto;
 
 }
+
+
+/* header css/ logo */
 #logo{
     height: 80px;
     vertical-align: middle;
@@ -28,3 +31,4 @@ body{
     line-height: 50px;
     vertical-align: middle;
 }
+/* fine css/logo */
