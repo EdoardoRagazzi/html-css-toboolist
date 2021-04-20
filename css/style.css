@@ -7,13 +7,13 @@ header{
 body{
     background-color: lightgrey;
 }
-.button{
+.containerbutton{
     width: 50%;
     background-color: white;
     margin: 20px auto 0px ;
     border-radius: 5px 5px 0px 0px;
 }
-.elenchi{
+.containerelenchi{
     width: 50%;
     background-color: white;
     margin: -15px auto 0px;
@@ -61,4 +61,21 @@ body{
     vertical-align: middle;
     text-align: center;
     cursor: pointer;
+}
+.elenchi{
+  padding-left: 90px;
+ 
+}
+.titoloelenco{
+    font-size: 40px;
+    font-weight: 900;
+}
+ul{
+    list-style: none;
+}
+ul li.titoloelenco::before{
+    content: "\25bc";
+}
+ul li::before{
+    
 }
