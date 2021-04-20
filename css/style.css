@@ -67,8 +67,12 @@ body{
  
 }
 .titoloelenco{
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 800;
+}
+li{
+    font-size: 30px;
+    font-weight: 400;
 }
 ul{
     list-style: none;
@@ -76,6 +80,16 @@ ul{
 ul li.titoloelenco::before{
     content: "\25bc";
 }
-ul li::before{
-    
+.true::before{
+    content: "\2713";
+    color:green;
+    border: 1px solid green;
+    border-radius: 50px;
+
+}
+.false::before{
+    content: "\2717";
+    color: red;
+    border: 1px solid red;
+    border-radius: 50px;
 }
