@@ -7,11 +7,16 @@ header{
 body{
     background-color: lightgrey;
 }
-.container{
+.button{
     width: 50%;
     background-color: white;
-    margin: 50px auto;
-    border-radius: 5px;
+    margin: 20px auto 0px ;
+    border-radius: 5px 5px 0px 0px;
+}
+.elenchi{
+    width: 50%;
+    background-color: white;
+    margin: -15px auto 0px;
 }
 
 
