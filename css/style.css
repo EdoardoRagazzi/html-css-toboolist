@@ -37,6 +37,8 @@ body{
     vertical-align: middle;
 }
 /* fine css/logo */
+
+/* button layout */
 .task{
       background-color: deepskyblue;
       border-radius: 5px;
@@ -62,6 +64,9 @@ body{
     text-align: center;
     cursor: pointer;
 }
+/* fine layout button */
+
+/* inizio elenchi  */
 .elenchi{
   padding-left: 90px;
  
@@ -93,3 +98,46 @@ ul li.titoloelenco::before{
     border: 1px solid red;
     border-radius: 50px;
 }
+.editorial{
+    border-radius: 20px;
+    background-color: grey;
+    text-align: center;
+    
+}
+.editorial{
+    background-color: deepskyblue;
+  
+}
+.goals{
+    background-color: purple;
+  
+}
+.recruiting{
+    background-color: green;
+  
+}
+
+.mobile{
+    background-color:orange;
+  
+}
+.website{
+    background-color: tomato;
+   
+}
+.sales{
+    background-color:greenyellow;
+   
+}
+button{
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    border:none;
+    vertical-align: middle;
+    text-align: center;
+}
+/* fine elenchi */
+
